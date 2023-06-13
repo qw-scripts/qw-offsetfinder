@@ -49,7 +49,7 @@ local function RemoveShell()
     Notify("Deleted shell")
 end
 
-RegisterNetEvent("nf_offset:client:testShell", function(shellName)
+RegisterNetEvent("qw-offset:client:testShell", function(shellName)
     local shellModel = shellName and GetHashKey(shellName)
 
     if not shellName then
@@ -117,7 +117,7 @@ RegisterNetEvent("nf_offset:client:testShell", function(shellName)
     end)
 end)
 
-RegisterNetEvent('nf_offset:client:objectOffsetMode', function()
+RegisterNetEvent('qw-offset:client:objectOffsetMode', function()
 
     if not testingShell then return end
     if not inObjectPreview then

@@ -9,12 +9,12 @@ lib.addCommand('findoffsets', {
     },
     restricted = 'group.admin'
 }, function(source, args, raw)
-    TriggerClientEvent('nf_offset:client:testShell', source, args.shell)
+    TriggerClientEvent('qw-offset:client:testShell', source, args.shell)
 end)
 
 lib.addCommand('findoffsets:object', {
     help = 'Find object / prop offets for a shell',
     restricted = 'group.admin'
 }, function(source, args, raw)
-    TriggerClientEvent('nf_offset:client:objectOffsetMode', source)
+    TriggerClientEvent('qw-offset:client:objectOffsetMode', source)
 end)
