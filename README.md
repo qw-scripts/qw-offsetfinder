@@ -10,7 +10,7 @@ supports Player offsets and Object offsets
 
 ## Links
 
-[Co-Authored by Zoo](https://github.com/Renewed-Scripts)
+[Co-Authored by Zoo](https://github.com/Renewed-Scripts) - I am very much so brain dead so Zoo helped me get the offsets working correctly
 
 [preview](https://streamable.com/my3fd6)
 
